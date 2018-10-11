@@ -1,0 +1,22 @@
+#contact-page {
+    width: @content-width;
+    margin: auto;
+}
+
+#contact-page h1 {
+    font-weight: bold;
+    text-transform: uppercase;
+    color: @content-title;
+}
+
+#contact-page ul:not(.offices) {
+    list-style-type: none;
+    padding-left: 0px;
+}
+
+@media only screen and (max-device-width: @mobile-threshold-width) {
+    #contact-page {
+        width: @content-width-mob;
+    }
+}
+

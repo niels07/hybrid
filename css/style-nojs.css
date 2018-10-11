@@ -1,0 +1,12 @@
+.nojs .overlay {
+  display: none;
+}
+.nojs .ajax-loading {
+  display: none;
+}
+body.loading.nojs .ajax-loading {
+  display: none;
+}
+body.loading.nojs {
+  overflow: scroll;
+}

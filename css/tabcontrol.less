@@ -1,0 +1,49 @@
+
+.tab-control {
+}
+
+.tab-control .tab-buttons {
+}
+
+.tab-control .tab-button {
+    float: left;
+    display: block;
+    width: 75px;
+    padding: 5px;
+    border-top: 2px solid black;
+    border-right: 2px solid black;
+    border-left: 2px solid black;
+    text-align: center;
+    text-decoration: none;
+}
+
+.tab-control .tab-button:not(:first-child) {
+    margin-left: 5px;
+}
+
+.tab-control .tab-buttons .tab-button.active {
+    background-color: black;
+    color: white;
+}
+
+.tab-control .tab-buttons .tab-button:not(.active) {
+    background-color: #e5e5e5;
+    color: black;
+   -webkit-box-shadow: inset 0px 0px 5px #c1c1c1;
+    -moz-box-shadow: inset 0px 0px 5px #c1c1c1;
+    box-shadow: inset 0px 0px 5px #c1c1c1;
+}
+
+.tab-control .tab-buttons:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.tab-control .tab {
+    border: 2px solid black;
+}
+
+.tab-control .tab:not(.active) {
+    display: none;
+}

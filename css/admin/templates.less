@@ -1,0 +1,67 @@
+@editor-width: 900px;
+@editor-height: 700px;
+
+#admin-templates-page {
+    height: @editor-height + 50px;
+}
+
+#editors {
+    width: @editor-width + 5px;
+    height: @editor-height + 50px;
+    float: left;
+}
+
+.editor-wrapper {   
+    position: relative;
+    width: @editor-width;
+    height: @editor-height;
+}
+
+.editor {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: @editor-width;
+    height: @editor-height;
+}
+
+#save-template-button {
+    float: right;
+    margin-right: 0px;
+}
+
+#template-manager {
+    float: left;
+    margin-left: 20px;
+}
+
+#template-manager h2 {
+    margin-top: 20px;
+}
+
+#template-manager button {
+    margin-top: 10px;    
+    margin-bottom: 10px;
+}
+
+#template-image-selector {
+    margin-top: 50px;
+}
+
+#image-selection {
+    width: 200px; 
+}
+
+#image-preview {
+    height: 200px;
+    width: 200px;
+    border: 1px solid lightgray;
+    margin-top: 10px;
+}
+
+#image-preview img {
+    max-height: 200px;
+    max-width: 200px;
+    height: auto;
+    width: auto;
+}

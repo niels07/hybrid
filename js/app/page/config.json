@@ -1,0 +1,52 @@
+{
+    "settings": {
+        "defaultView": "page/home",
+        "dispatcher": "app/page/pageDispatcher"
+    },
+    "views": [{
+        "path"  : "page/footer",
+        "class" : "FooterView",
+        "module": "app/page/view/footerView"
+    }, {
+        "path"  : "page/home",
+        "class" : "HomeView",
+        "module": "app/page/view/homeView"
+    }, {
+        "path"  : "page/offers",
+        "class" : "OffersView",
+        "module": "app/page/view/offersView"
+    }, {
+        "path"  : "page/contact",
+        "class" : "ContactView",
+        "module": "app/page/view/contactView"
+    }, {
+        "path"  : "page/faq",
+        "class" : "FaqView",
+        "module": "app/page/view/faqView"
+    }, {
+        "path"  : "page/about",
+        "class" : "AboutView",
+        "module": "app/page/view/aboutView"
+    }, {
+        "path"  : "page/stores",
+        "class" : "StoresView",
+        "module": "app/page/view/storesView"
+    }, {
+        "path"  : "page/store",
+        "class" : "StoreView",
+        "module": "app/page/view/storeView"
+    }, {
+        "path"  : "page/store/categories",
+        "class" : "CategoriesView",
+        "module": "app/page/view/store/categoriesView"
+    }, {
+        "path"  : "page/store/products",
+        "class" : "ProductsView",
+        "module": "app/page/view/store/productsView"
+    }, {
+        "path"  : "page/store/product",
+        "class" : "ProductView",
+        "module": "app/page/view/store/productView"
+    }]
+}
+

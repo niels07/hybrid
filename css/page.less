@@ -1,0 +1,88 @@
+@import "/css/colors";
+@import "/css/mixins";
+@import "/css/sizes";
+
+@import "/css/page/home";
+@import "/css/page/contact";
+@import "/css/page/stores";
+@import "/css/page/about";
+@import "/css/page/offers";
+@import "/css/page/store";
+@import "/css/page/store/categories";
+@import "/css/page/store/product";
+@import "/css/page/store/selection";
+@import "/css/page/store/product/images";
+
+.page {
+    width: @content-width;
+    margin: auto;
+}
+
+selection {
+    .transition(width 100ms linear);
+    overflow: hidden;
+}
+
+.title .text {
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: underline;
+    float: left;
+    color: #ffffff;
+}
+
+.back .text {
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: underline;
+    float: left;
+    color: @color1;
+    margin-top: 7px;
+}
+
+.back .back-button {
+    float: left;
+    width: 0;
+    height: 0;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid transparent;
+    border-right: 20px solid @color1;
+    margin-right: 20px;
+    display: block;
+}
+
+.product-info-field {
+    min-height: 25px;
+    width: 500px;
+    margin-bottom: 20px;
+}
+
+
+@media only screen and (max-device-width: 800px) {
+
+    #store-products,
+    #store-categories {
+        float: none;
+        width: 100%;
+    }
+
+
+    #store-products .content,
+    #store-categories .content {
+        width: @content-width-mob;
+    }
+
+    #product-footer .content {
+        width: @content-width-mob;
+    }
+
+    #offers-page {
+        width: @content-width-mob;
+    }
+
+    
+    .footer-block {
+        padding-left: 20px;
+    }
+}
+

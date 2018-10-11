@@ -1,0 +1,1 @@
+{"version":3,"file":"appDispatcher.js","sourceRoot":"","sources":["appDispatcher.ts"],"names":[],"mappings":";;;;;;;;;;;;IAIA;QAEI,uBAAgD,WAAwB;YAAxB,gBAAW,GAAX,WAAW,CAAa;QAExE,CAAC;QAEM,8BAAM,GAAb;YACI,IAAI,CAAC,WAAW,CAAC,QAAQ,EAAE,CAAC;QAChC,CAAC;QARQ,aAAa;YAEF,WAAA,WAAM,CAAC,kBAAW,CAAC,CAAA;WAF9B,aAAa,CASzB;QAAD,oBAAC;KAAA,AATD,IASC;IATY,sCAAa"}

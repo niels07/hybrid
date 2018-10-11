@@ -1,0 +1,175 @@
+@import "colors";
+@import "admin/login";
+@import "admin/products";
+@import "admin/templates";
+@import "admin/users";
+@import "tabcontrol";
+
+#header-title {
+    padding-top: 25px;
+    float: left;
+    margin-left: 20px;
+}
+
+#images-page {
+    min-height: 700px;
+}
+
+#images-page .images {
+    width: 600px; 
+    padding: 10px;
+    height: 400px;
+    overflow-y: scroll;
+    border: 2px solid black;
+    float: left;
+}
+
+#images-page .images img {
+    width: 250px;
+}
+
+#logout-button {
+    color: @menu-highlight !important;
+}
+
+#images-page .images .image {
+    float: left;
+    margin-bottom: 10px;
+    height: 100px;
+    width: 250px;
+    overflow: hidden;
+}
+
+#images-page .images {
+}
+
+#images-page .image-position {
+    width: 25px;
+}
+
+#images-page .images .edit-image {
+    float: left;
+    margin-left: 15px;
+}
+
+#images-page .images .edit-image input {
+    margin-bottom: 10px;
+}
+
+#images-page .images .edit-image button {
+}
+
+#images-page .uploader {
+    float: left;
+    margin-left: 50px;
+    padding: 10px;
+    min-width: 400px;
+    height: 400px; 
+    border: 2px solid black;
+}
+
+#images-page .uploader input {
+    margin-bottom: 20px;
+}
+
+#menu nav {
+    width: 70% !important;
+}
+
+.admin-page {
+    width: 70%;
+    margin: auto;
+}
+
+.field {
+    max-width: 200px;
+
+}
+
+.field label {
+    font-size: 12px;
+}
+
+
+button,
+input[type="submit"] {
+    width: 100px;
+    height: 30px;
+    background: #333333;
+    color: white;
+    display: block;
+    text-align:center;
+    text-decoration: none;
+    font-size: 14px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.popup {
+    position: absolute;
+    display: inline-block;
+    top: 150px;
+    width: 400px;
+    overflow: hidden;
+    background-color: white;
+    border: 2px solid #333333;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding: 10px;
+    padding-top: 20px;
+    left: 0;
+    right: 0;
+    z-index: 101;
+}
+
+.popup button {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+}
+
+.popup.error {
+    color: red;
+    font-weight: bold;
+}
+
+#admin>div {
+    margin: auto;
+    width: 70%;
+}
+
+.admin-page .section,
+#admin .section {
+    border: 2px solid gray;
+    padding: 20px;
+    padding-top: 10px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    width: 400px;
+}
+
+#admin-product-form li {
+   font-size: 12px;
+}
+
+#admin-product-form li a:hover,
+#admin-product-form li a:visited,
+#admin-product-form li a {
+    font-weight: bold;
+    color: #333333;
+}
+
+#admin-product-form textarea {
+    width: 380px;
+    height: 170px;
+}
+
+button.delete-option {
+    width: 19px;
+    height: 19px;
+    padding: 0px;
+    font-size: 10px;
+    margin-left: 5px;
+}

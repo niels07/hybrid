@@ -1,0 +1,281 @@
+#login-page {
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  position: absolute;
+  background-color: white;
+  top: 0px;
+}
+#login-form {
+  margin: auto;
+  margin-top: 50px;
+  width: 200px;
+  padding: 10px;
+  border: 4px double black;
+}
+#login-form img {
+  width: 200px;
+}
+#admin-product-form select {
+  width: 150px;
+}
+.attribute-list a {
+  float: right;
+}
+.attribute-list a:hover {
+  color: #94c122;
+  text-decoration: none;
+}
+.attribute-list a:before {
+  content: "[ ";
+}
+.attribute-list a:after {
+  content: " ]";
+}
+.attribute-list:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+#admin-templates-page {
+  height: 750px;
+}
+#editors {
+  width: 905px;
+  height: 750px;
+  float: left;
+}
+.editor-wrapper {
+  position: relative;
+  width: 900px;
+  height: 700px;
+}
+.editor {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 900px;
+  height: 700px;
+}
+#save-template-button {
+  float: right;
+  margin-right: 0px;
+}
+#template-manager {
+  float: left;
+  margin-left: 20px;
+}
+#template-manager h2 {
+  margin-top: 20px;
+}
+#template-manager button {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+#template-image-selector {
+  margin-top: 50px;
+}
+#image-selection {
+  width: 200px;
+}
+#image-preview {
+  height: 200px;
+  width: 200px;
+  border: 1px solid lightgray;
+  margin-top: 10px;
+}
+#image-preview img {
+  max-height: 200px;
+  max-width: 200px;
+  height: auto;
+  width: auto;
+}
+#admin-user-form input[type=text]:-webkit-autofill,
+#admin-user-form input[type=password]:-webkit-autofill {
+  -webkit-box-shadow: 0 0 0px 1000px white inset;
+  background-color: white;
+  border: 1px solid gray;
+}
+#admin-user-form input[type=text]:read-only,
+#admin-user-form input[type=password]:read-only,
+#admin-user-form input[type=text]:read-only:-webkit-autofill,
+#admin-user-form input[type=password]:read-only:-webkit-autofill {
+  background-color: gray;
+}
+#admin-user-form .change-pass-field {
+  padding-top: 20px;
+  font-size: 12px;
+  float: left;
+}
+.tab-control .tab-button {
+  float: left;
+  display: block;
+  width: 75px;
+  padding: 5px;
+  border-top: 2px solid black;
+  border-right: 2px solid black;
+  border-left: 2px solid black;
+  text-align: center;
+  text-decoration: none;
+}
+.tab-control .tab-button:not(:first-child) {
+  margin-left: 5px;
+}
+.tab-control .tab-buttons .tab-button.active {
+  background-color: black;
+  color: white;
+}
+.tab-control .tab-buttons .tab-button:not(.active) {
+  background-color: #e5e5e5;
+  color: black;
+  -webkit-box-shadow: inset 0px 0px 5px #c1c1c1;
+  -moz-box-shadow: inset 0px 0px 5px #c1c1c1;
+  box-shadow: inset 0px 0px 5px #c1c1c1;
+}
+.tab-control .tab-buttons:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+.tab-control .tab {
+  border: 2px solid black;
+}
+.tab-control .tab:not(.active) {
+  display: none;
+}
+#header-title {
+  padding-top: 25px;
+  float: left;
+  margin-left: 20px;
+}
+#images-page {
+  min-height: 700px;
+}
+#images-page .images {
+  width: 600px;
+  padding: 10px;
+  height: 400px;
+  overflow-y: scroll;
+  border: 2px solid black;
+  float: left;
+}
+#images-page .images img {
+  width: 250px;
+}
+#logout-button {
+  color: #86b22f !important;
+}
+#images-page .images .image {
+  float: left;
+  margin-bottom: 10px;
+  height: 100px;
+  width: 250px;
+  overflow: hidden;
+}
+#images-page .image-position {
+  width: 25px;
+}
+#images-page .images .edit-image {
+  float: left;
+  margin-left: 15px;
+}
+#images-page .images .edit-image input {
+  margin-bottom: 10px;
+}
+#images-page .uploader {
+  float: left;
+  margin-left: 50px;
+  padding: 10px;
+  min-width: 400px;
+  height: 400px;
+  border: 2px solid black;
+}
+#images-page .uploader input {
+  margin-bottom: 20px;
+}
+#menu nav {
+  width: 70% !important;
+}
+.admin-page {
+  width: 70%;
+  margin: auto;
+}
+.field {
+  max-width: 200px;
+}
+.field label {
+  font-size: 12px;
+}
+button,
+input[type="submit"] {
+  width: 100px;
+  height: 30px;
+  background: #333333;
+  color: white;
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  font-size: 14px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+.popup {
+  position: absolute;
+  display: inline-block;
+  top: 150px;
+  width: 400px;
+  overflow: hidden;
+  background-color: white;
+  border: 2px solid #333333;
+  border-radius: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  padding: 10px;
+  padding-top: 20px;
+  left: 0;
+  right: 0;
+  z-index: 101;
+}
+.popup button {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+}
+.popup.error {
+  color: red;
+  font-weight: bold;
+}
+#admin > div {
+  margin: auto;
+  width: 70%;
+}
+.admin-page .section,
+#admin .section {
+  border: 2px solid gray;
+  padding: 20px;
+  padding-top: 10px;
+  margin-bottom: 20px;
+  margin-right: 20px;
+  width: 400px;
+}
+#admin-product-form li {
+  font-size: 12px;
+}
+#admin-product-form li a:hover,
+#admin-product-form li a:visited,
+#admin-product-form li a {
+  font-weight: bold;
+  color: #333333;
+}
+#admin-product-form textarea {
+  width: 380px;
+  height: 170px;
+}
+button.delete-option {
+  width: 19px;
+  height: 19px;
+  padding: 0px;
+  font-size: 10px;
+  margin-left: 5px;
+}

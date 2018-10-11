@@ -1,0 +1,348 @@
+@font-face {
+  font-family: 'TrajanPro-Regular';
+  src: url('fonts/TrajanPro/TrajanPro-Regular.ttf');
+}
+@font-face {
+  font-family: 'TrajanPro-Regular';
+  src: url('fonts/TrajanPro/TrajanPro-Bold.ttf');
+  font-weight: bold;
+}
+@font-face {
+  font-family: 'Roboto';
+  src: url('fonts/Roboto/Roboto-Regular.woff');
+}
+@font-face {
+  font-family: 'Roboto';
+  src: url('fonts/Roboto/Roboto-Bold.woff');
+  font-weight: bold;
+}
+body {
+  margin: 0;
+  font-family: "Roboto", georgia, serif;
+}
+header {
+  margin: auto;
+  width: 1400px;
+  height: 60px;
+}
+header .content {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  height: 60px;
+  text-align: right;
+}
+header .content ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+header .facebook-icon {
+  width: 25px;
+}
+a,
+a:hover,
+a:visited {
+  color: #86b22f;
+  font-weight: bold;
+}
+header .content li {
+  float: right;
+  padding: 15px;
+}
+header .content li a,
+header .content li a:visited {
+  text-decoration: underline;
+  font-size: 12px;
+  color: #86b22f;
+}
+header .logo img {
+  display: block;
+  float: left;
+}
+header .logo .oneline {
+  float: left;
+  margin-left: 20px;
+  margin-top: 20px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.block {
+  margin: auto;
+  padding: 0;
+  height: 460px;
+}
+.flex-container {
+  display: flex;
+  display: -webkit-flex;
+}
+#home-block1 {
+  background-color: white;
+  width: 70%;
+  text-align: center;
+}
+#home-block2 {
+  width: 100%;
+}
+main {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  min-height: 500px;
+  -moz-transition: height 100ms linear;
+  -webkit-transition: height 100ms linear;
+  -o-transition: height 100ms linear;
+  -ms-transition: height 100ms linear;
+  transition: height 100ms linear;
+}
+main .content {
+  padding: 0;
+  margin: 0;
+  width: 100%;
+}
+main nav ul {
+  padding: 0px;
+  margin: 0px;
+}
+main nav li {
+  list-style-type: none;
+  padding-bottom: 10px;
+  margin: 0px;
+}
+main nav li > a,
+main nav li > a:visited {
+  color: #ffffff;
+  font-size: 14px;
+}
+main nav li > a:hover {
+  text-decoration: none;
+}
+#menu {
+  width: 100%;
+  background-color: #000000;
+  color: #ffffff;
+}
+#menu nav {
+  margin: auto;
+  width: 980px;
+  padding: 0;
+}
+#menu nav ul {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  z-index: 4;
+  list-style: none;
+}
+#menu nav li {
+  float: left;
+  text-transform: uppercase;
+}
+#menu nav a,
+#menu nav a:hover,
+#menu nav a:visited {
+  border-top: 4px solid #000000;
+  border-bottom: 4px solid #000000;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  margin-left: 10px;
+  margin-right: 10px;
+  font-size: 16px;
+  text-decoration: none;
+  color: white;
+  display: block;
+  -moz-transition: 0.3s ease;
+  -webkit-transition: 0.3s ease;
+  -o-transition: 0.3s ease;
+  -ms-transition: 0.3s ease;
+  transition: 0.3s ease;
+}
+#menu nav a:hover {
+  border-top: 4px solid #ffffff;
+  border-bottom: 4px solid #ffffff;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+h1 {
+  font-size: 24px;
+  font-weight: normal;
+  color: #86b22f;
+}
+h2 {
+  font-size: 16px;
+  color: #86b22f;
+}
+.breadcrumb {
+  margin-top: 12px;
+  font-size: 12px;
+  color: #bbbdc0;
+}
+.field {
+  padding-bottom: 10px;
+}
+.field * {
+  display: inline;
+}
+.field *:after {
+  content: "\a";
+  white-space: pre;
+}
+.field label {
+  margin-bottom: 10px;
+}
+.clear {
+  clear: both;
+}
+.right {
+  width: 40%;
+  float: right;
+}
+.left {
+  width: 40%;
+  float: left;
+}
+.overlay {
+  width: 100%;
+  height: 1200px;
+  position: absolute;
+  top: 0;
+  z-index: 100;
+  background: rgba(0, 0, 0, 0.5);
+}
+.ajax-loading {
+  display: none;
+  position: fixed;
+  z-index: 1000;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  background-color: rgba(255, 255, 255, 0.8);
+  background-image: url("/images/loading.gif");
+  background-position: 50% 50% ;
+  background-repeat: no-repeat;
+}
+body.loading {
+  overflow: hidden;
+}
+body.loading .ajax-loading {
+  display: block;
+}
+float-left:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.float-left > * {
+  float: left;
+}
+footer {
+  width: 100%;
+  background-color: #000000;
+  height: 400px;
+  color: #ffffff;
+}
+footer .footer-content {
+  width: 1200px;
+  margin: auto;
+}
+footer .footer-block {
+  float: left;
+  margin-top: 20px;
+  margin-right: 20px;
+  max-width: 400px;
+  font-size: 14px;
+}
+footer .footer-block ul {
+  color: white;
+  list-style-type: circle;
+}
+footer .footer-block h1 {
+  color: white;
+  font-size: 14px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+footer .footer-block a,
+footer .footer-block a:visited,
+footer .footer-block a:hover {
+  color: white;
+}
+footer:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.no-transition {
+  -moz-transition: none !important;
+  -webkit-transition: none !important;
+  -o-transition: none !important;
+  -ms-transition: none !important;
+  transition: none !important;
+}
+.no-transition * {
+  -moz-transition: none !important;
+  -webkit-transition: none !important;
+  -o-transition: none !important;
+  -ms-transition: none !important;
+  transition: none !important;
+}
+.fLeft {
+  float: left;
+}
+.fRight {
+  float: right;
+}
+.bold {
+  font-weight: bold;
+}
+@media only screen and (max-device-width: 800px) {
+  header {
+    width: 100%;
+  }
+  header .content ul {
+    display: none;
+  }
+  .logo img {
+    float: none;
+  }
+  #menu nav li {
+    float: none;
+  }
+  #menu nav {
+    width: 100%;
+  }
+  #menu nav a {
+    font-size: 35px;
+  }
+  #menu nav a,
+  #menu nav a:hover,
+  #menu nav a:visited {
+    border: none;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 35px;
+    -moz-transition: none;
+    -webkit-transition: none;
+    -o-transition: none;
+    -ms-transition: none;
+    transition: none;
+  }
+  nav a:hover {
+    border: none;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+}

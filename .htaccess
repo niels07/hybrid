@@ -1,0 +1,8 @@
+RewriteEngine On
+Options -MultiViews
+RewriteCond %{REQUEST_URI} !(\.ico|\.png|\.js)$ [NC]
+RewriteCond %{REQUEST_URI} !^/?(images|js|css|static)/
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)$ /index.php?url=$1 [QSA,PT,L]

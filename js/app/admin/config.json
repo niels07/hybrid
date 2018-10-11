@@ -1,0 +1,44 @@
+{
+    "settings": {
+        "defaultView": "admin/products",
+        "dispatcher": "app/admin/adminDispatcher"
+    },
+     "views": [{
+        "path"  : "admin/home",
+        "class" : "HomeView",
+        "module": "app/admin/view/homeView"
+    }, {
+        "path"  : "admin/products",
+        "class" : "ProductsView",
+        "module": "app/admin/view/productsView"
+    }, {
+        "path"  : "admin/categories",
+        "class" : "CategoriesView",
+        "module": "app/admin/view/categoriesView"
+    }, {
+        "path"  : "admin/users",
+        "class" : "UsersView",
+        "module": "app/admin/view/usersView"
+    }, {
+        "path"  : "admin/stores",
+        "class" : "StoresView",
+        "module": "app/admin/view/storesView"
+    }, {
+        "path"  : "admin/templates",
+        "class" : "TemplatesView",
+        "module": "app/admin/view/templatesView"
+    }, {
+        "path"  : "admin/products/images",
+        "class" : "ImagesView",
+        "module": "app/admin/view/products/imagesView"
+    }, {
+        "path"  : "admin/products/specs",
+        "class" : "SpecsView",
+        "module": "app/admin/view/products/specsView"
+    }, {
+        "path"  : "admin/login",
+        "class" : "LoginView",
+        "module": "app/admin/view/loginView"
+    }]
+}
+

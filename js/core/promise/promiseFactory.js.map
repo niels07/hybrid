@@ -1,0 +1,1 @@
+{"version":3,"file":"promiseFactory.js","sourceRoot":"","sources":["promiseFactory.ts"],"names":[],"mappings":";;;;;;;;;;;;;;;;;;;IAKA;QAAoC,kCAAc;QAC9C;mBACI,kBAAM,iBAAO,CAAC;QAClB,CAAC;QAED,+BAAM,GAAN,UAAU,QAA4B;YAClC,MAAM,CAAC,iBAAM,MAAM,YAAC,QAAQ,CAAC,CAAC;QAClC,CAAC;QAPQ,cAAc;YAD1B,cAAS,EAAE;WACC,cAAc,CAQ1B;QAAD,qBAAC;KAAA,AARD,CAAoC,mBAAc,GAQjD;IARY,wCAAc"}

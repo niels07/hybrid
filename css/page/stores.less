@@ -1,0 +1,55 @@
+@store-title-background: @color1;
+@store-title-foreground: @color2;
+
+#stores-page {
+    width: 1200px;
+    margin: auto;
+}
+
+#stores-page .container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+#stores-page h1 {
+    font-size: 25px;
+    color: @content-title;
+}
+
+.store {
+    border: 2px solid @store-title-background;
+    width: 350px;
+    margin-bottom: 20px;
+}
+
+.store .title {
+    background-color: @store-title-background;
+    width: 100%;
+    margin: 0px;
+}
+
+.store .title h2 {
+    padding: 10px;
+    color: @store-title-foreground;
+    margin: 0px;
+    text-transform: uppercase;
+}
+
+.store ul {
+    list-style: none;
+    padding-left: 20px;
+}
+
+.store li {
+    margin: 0px;
+}
+
+
+.store table {
+    margin: 20px;
+}
+
+.store .days td {
+    padding-right: 10px;
+}
