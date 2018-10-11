@@ -1,2 +1,2 @@
 # hybrid
-My own custom web framework.
+My own custom PHP + typescript SPA web framework. 
