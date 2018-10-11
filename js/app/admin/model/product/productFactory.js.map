@@ -1,1 +1,0 @@
-{"version":3,"file":"productFactory.js","sourceRoot":"","sources":["productFactory.ts"],"names":[],"mappings":";;;;;;;;;;;;;;;;;;;IAKA;QAAoC,kCAAc;QAE9C;mBACI,kBAAM,2BAAY,CAAC;QACvB,CAAC;QAED,+BAAM,GAAN,UAAO,IAAsB;YACzB,MAAM,CAAC,iBAAM,MAAM,YAAC,IAAI,CAAC,CAAC;QAC9B,CAAC;QARQ,cAAc;YAD1B,cAAS,EAAE;WACC,cAAc,CAS1B;QAAD,qBAAC;KAAA,AATD,CAAoC,mBAAc,GASjD;IATY,wCAAc"}
